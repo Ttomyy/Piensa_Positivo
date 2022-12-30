@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="@drawable/cara_positiva"
+    tools:context=".Home">
+
+
+    <Button
+        android:id="@+id/b_positivo"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="5dp"
+        android:alpha="0.7"
+        android:background="@color/purple_700"
+        android:fontFamily="@font/crafty_girls"
+        android:text="@string/b_positivo"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_ilusion"
+        android:layout_width="397dp"
+        android:layout_height="85dp"
+        android:layout_below="@id/b_positivo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="5dp"
+        android:alpha="0.7"
+        android:background="@color/purple_700"
+        android:fontFamily="@font/crafty_girls"
+        android:text="@string/ilusion"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b_entrena"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_below="@id/bt_ilusion"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="5dp"
+        android:alpha="0.7"
+        android:background="@color/purple_700"
+        android:fontFamily="@font/crafty_girls"
+        android:text="@string/b_entrena"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b_salud"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_below="@id/b_entrena"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="5dp"
+        android:alpha="0.7"
+        android:background="@color/purple_700"
+        android:fontFamily="@font/crafty_girls"
+        android:text="@string/b_salud"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b_autoestima"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_below="@id/b_salud"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="5dp"
+        android:alpha="0.7"
+        android:background="@color/purple_700"
+        android:fontFamily="@font/crafty_girls"
+        android:text="@string/b_msg_autoestima"
+        android:textColor="@color/white"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b_formulario"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_below="@id/b_autoestima"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="5dp"
+        android:alpha="0.7"
+        android:background="@color/purple_700"
+        android:fontFamily="@font/biorhyme"
+        android:text="@string/Suscribete"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

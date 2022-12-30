@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "753622958854",
+    "project_id": "piensa-positivo1firebase",
+    "storage_bucket": "piensa-positivo1firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753622958854:android:0bb515d1880a5ae797d487",
+        "android_client_info": {
+          "package_name": "com.cidead.pmdm.piensapositivo1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753622958854-oj8re1jbqkm0tcbkgm4eb7kk27ilk8g6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAABBYF7wsDBOPfeI1PKIQWcsONhux7q5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753622958854-oj8re1jbqkm0tcbkgm4eb7kk27ilk8g6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

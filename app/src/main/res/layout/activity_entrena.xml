@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_3"
+    tools:context=".Activity_entrena">
+
+    <Button
+        android:id="@+id/bvolver_autoestima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/abril_fatface"
+        android:text=" VOLVER"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.905" />
+
+    <Button
+        android:id="@+id/bt_entrenar"
+        android:layout_width="126dp"
+        android:layout_height="76dp"
+
+        android:background="@color/purple_500"
+        android:alpha="0.3"
+        android:text="@string/b_entrena"
+        android:textColor="#CCFF00"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <FrameLayout
+        android:layout_width="374dp"
+        android:layout_height="392dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.501">
+
+        <ImageView
+            android:id="@+id/iv_entrena1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/entreda_duro_mensaje" />
+        <ImageView
+            android:id="@+id/iv_entrena2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/entrena1" />
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linear_videos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b_play"
+                android:text="PLAY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/buttonPause"
+                android:layout_toStartOf="@+id/buttonPause"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:id="@+id/b_pause"
+                android:text="PAUSE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/buttonPlay"
+                android:layout_alignBottom="@+id/buttonPlay"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/b_stop"
+                android:text="STOP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/buttonPause"
+                android:layout_alignBottom="@+id/buttonPause"
+                android:layout_toRightOf="@+id/buttonPause"
+                android:layout_toEndOf="@+id/buttonPause"
+                />
+            <VideoView
+                android:id="@+id/vv_calienta"
+                android:layout_width="match_parent"
+                android:visibility="invisible"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

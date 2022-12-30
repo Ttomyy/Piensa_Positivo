@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Home"
+    >
+
+    <item
+        android:id="@+id/m_compartir"
+        android:icon="@drawable/ic_share_24"
+        android:title="@string/Compartir"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/m_atras"
+        android:icon="@drawable/ic_arrow_back_24"
+        android:title="@string/volver"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/m_logout"
+        android:icon="@drawable/logout"
+        android:title="@string/logout"
+        app:showAsAction="ifRoom"
+        />
+</menu>

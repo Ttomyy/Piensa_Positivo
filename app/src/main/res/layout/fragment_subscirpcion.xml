@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_fragment"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_bg"
+    tools:context=".FragmentSubscirpcion">
+
+    <LinearLayout
+        android:id="@+id/linearParte1"
+        android:layout_width="match_parent"
+        android:layout_height="518dp"
+        android:background="@drawable/blue_bg"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="179dp"
+            android:layout_height="118dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="45dp"
+            android:src="@drawable/logo_pulgar_arriba" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center|center_horizontal"
+            android:text="@string/xd"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/edt_Mail"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:drawableStart="@drawable/ic_log_email"
+            android:fontFamily="@font/abril_fatface"
+            android:hint="@string/correo_electr_nico"
+            android:inputType="textEmailAddress"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_EnviarSubscripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#00FF66"
+            android:layout_marginLeft="250dp"
+            android:layout_marginRight="10dp"
+            android:drawableEnd="@drawable/ic_send_siz24"
+            android:drawableTint="#fff"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/Enviar"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/b_VolverDe_Formulario"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="150dp"
+            android:background="#00FF66"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center|center_horizontal"
+            android:text="@string/volver"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtComentarioComparte"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center|center_horizontal"
+            android:text="@string/comparte_ux"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
